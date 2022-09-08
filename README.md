@@ -7,35 +7,18 @@
 1. Make sure **Git** and **NodeJS** is installed
 2. **Yarn** is faster than Npm. So use [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/).
 3. Create .env file in both client and server folder.
-4. _server/.env_
-
-```
-STREAM_API_KEY=xxxxxxxxxx
-STREAM_API_SECRET=xxxxxxxxxxxxxxxxxxxxx
-STREAM_APP_ID=xxxxx
-
-TWILIO_ACCOUNT_SID=xxxxxxxxxxxxxx
-TWILIO_AUTH_TOKEN=xxxxxxxxxxxxxxx
-TWILIO_MESSAGING_SERVICE_SID=xxxxxxxxxxxxxxxxx
-```
-
-5. _client/.env_
-
-```
-REACT_APP_STREAM_API_KEY_SECRET=xxxxxxxxxx
-```
-
-6. Create an account in [Stream](https://getstream.io/)
-7. Create a new app. You can name it whatever you want.
-8. On app dashboard, you can copy your keys and paste it.
+server/.env
+4. Create an account in [Stream](https://getstream.io/)
+5. Create a new app. You can name it whatever you want.
+6. On app dashboard, you can copy your keys and paste in server/.env and client/.env.
 
 _NOTE:_ Both `STREAM_API_KEY` and `REACT_APP_STREAM_API_KEY_SECRET` are same
 
-9. To use messaging functionality, Create an account in [Twilio](https://www.twilio.com/try-twilio)
-10. On app dashboard, copy keys and paste them in .env file in server folder.
-11. To get Messaging service sid, go to _Messaging/Services_ through dashboard sidebar.
-12. Create a messaging service in case it doesn't exists
-13. Then, click on messaging service you created and you will be able to see its properties as shown below. Copy **Messaging Service SID**
+7. To use messaging functionality, Create an account in [Twilio](https://www.twilio.com/try-twilio)
+8. On app dashboard, copy keys and paste them in .env file in server folder.
+9. To get Messaging service sid, go to _Messaging/Services_ through dashboard sidebar.
+10. Create a messaging service in case it doesn't exists
+11. Then, click on messaging service you created and you will be able to see its properties as shown below. Copy **Messaging Service SID**
 
 ## 📌 How to use this App?
 
