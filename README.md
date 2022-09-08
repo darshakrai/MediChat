@@ -1,6 +1,6 @@
 # Online Medical Chat App
 
-![Online Medical Chat App using React JS](https://user-images.githubusercontent.com/92095133/189185099-9f043423-fed9-4421-845b-4c30129be76a.png)
+![Online Medical Chat App using React JS](https://user-images.githubusercontent.com/92095133/189202314-85a8f4f1-4b6d-4911-a06f-a103dfd916fd.png)
 
 ## 📌 Before you start
 
